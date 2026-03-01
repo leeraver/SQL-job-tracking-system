@@ -35,8 +35,8 @@ IF OBJECt_ID ('TState')					IS NOT NULL DROP TABLE TState
 
 CREATE TABLE TState
 (
-	 intStateID			INTEGER				NOT NULL
-	,strState			VARCHAR(255)		NOT NULL
+	 intStateID							INTEGER				NOT NULL
+	,strState							VARCHAR(255)		NOT NULL
 	,CONSTRAINT TState_PK PRIMARY KEY ( intStateID )
 )
 
